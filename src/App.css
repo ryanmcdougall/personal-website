@@ -53,7 +53,7 @@ a{
 }
 #home{
   padding: 20vw 0; 
-  height: 130vh;
+  min-height: 130vh;
 }
 #contact{
   height: 60vh; 
@@ -160,7 +160,7 @@ a{
  
 
   .title{
-    margin:15vh 4vw 30vh 4vw;
+    margin:6vh 4vw 45vh 4vw;
   }
   .nav{
     top: 0;
@@ -173,6 +173,7 @@ a{
   .about{
     width: 75%;
     margin-left: 12.5%;
+    margin-bottom: 32px;
   }
   .skills{
     margin-bottom: 12vh;

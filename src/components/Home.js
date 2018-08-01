@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
 import {Link} from 'react-router-dom';
-import '../App.css'
+import '../App.css';
 import '../reset.css';
 import github from '../assets/github-transparent.png';
 import linkedin from '../assets/Linkedin-transparent.png';
