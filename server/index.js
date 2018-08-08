@@ -9,7 +9,6 @@ app.use(bodyParser.json())
 const {
     USER_EMAIL,
     USER_PASS,
-    SERVER_PORT
 } = process.env
 
 app.use( express.static( `${__dirname}/../build`) );
@@ -25,7 +24,7 @@ app.post('/api/sendEmail', (req, res) => {
     const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user: USER_EMAIL,
+            user: USER_EMAIL, 
             pass: USER_PASS
         }
     });
@@ -49,6 +48,6 @@ app.post('/api/sendEmail', (req, res) => {
     });
 });
 
-app.listen(SERVER_PORT, () => {
-    console.log('Listening on:', SERVER_PORT)
+app.listen(3030, () => {
+    console.log('Listening on:', 3030)
 })
