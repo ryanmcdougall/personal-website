@@ -11,6 +11,7 @@
 .text{
   font-family: 'Roboto', sans-serif;
   color: #FFFFFF;
+  text-align: center;
 }
 a{
   text-decoration: none;
@@ -52,8 +53,10 @@ a{
   box-sizing: border-box;
 }
 #home{
-  padding: 20vw 0; 
-  min-height: 130vh;
+  padding: 20vw 0;
+  text-align: center; 
+  min-height: 110vh;
+
 }
 #contact{
   height: 60vh; 
@@ -61,7 +64,7 @@ a{
 #skills{
   padding-top: 8vh;
   box-sizing: border-box;
-  background: url('https://images.unsplash.com/photo-1495305730668-3d13ae2a3250?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c52e66858494576058b6961baacaf2da&auto=format&fit=crop&w=1950&q=80') center no-repeat;
+  background: url('http://wallpapers-and-backgrounds.net/wp-content/uploads/2016/09/planet-background_2.jpg') center no-repeat;
   background-attachment: fixed;
   height: 120vh;
 }
@@ -135,14 +138,22 @@ a{
   
 }
 
+#projectsText{
+  padding-top: 100px
+}
+
 @media(min-width:600px){
   .App{
-    background: url('https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aecdd0f4ea59dfb2d0622cab6e3c3901&auto=format&fit=crop&w=1955&q=80') center no-repeat;
+    background: url('https://i.imgur.com/gWT9XCv.jpg') center no-repeat;
     background-attachment: fixed;
     background-size: cover;
   }
   .section{
     padding: 0 12.5vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
   #home{
     padding: 20vh 12.5vw 0 12.5vw;
@@ -169,6 +180,7 @@ a{
   }
   .label{
     font-size: 7em;
+    margin-top: 30px;
   }
   .about{
     width: 75%;
@@ -223,6 +235,15 @@ a{
   .footer-img{
     height: 9vh;
     padding-left: 3vw;
+  }
+  .description{
+    font-size: 48px;
+    width: 600px;
+    margin-bottom: 100px;
+    border: 2px solid white;
+  }
+  .padding{
+    padding-top: 800px; 
   }
 
 }
