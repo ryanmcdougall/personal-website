@@ -14,6 +14,7 @@ import node from '../assets/nodejs-512.png';
 import js from '../assets/JS.png';
 import html from '../assets/HTML.png';
 import css from '../assets/CSS.png';
+import jest from '../assets/jest.png'
 import pic from '../assets/pic.jpg';
 
 class Home extends Component {
@@ -28,7 +29,7 @@ class Home extends Component {
 
   }
   
-  render() {
+  render() { 
     return (
       <div className="App">
         <nav className='nav'>
@@ -55,8 +56,9 @@ class Home extends Component {
             <img src={rd} alt='' className='skill-icon' />
             <img src={node} alt='' className='skill-icon' />
             <img src={pg} alt='' className='skill-icon' />
+            <img src={jest} alt='' className='skill-icon' />
 
-            <p className='text skillz'>HTML   |  CSS   |  JAVASCRIPT   |  REACT   |  REDUX   |  NODEJS   |  POSTGRESQL</p>
+            <p className='text skillz'>HTML   |  CSS   |  JAVASCRIPT   |  REACT   |  REDUX   |  NODEJS   |  POSTGRESQL | JEST</p>
 
           </div>
         </div>
