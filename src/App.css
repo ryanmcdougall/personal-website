@@ -64,13 +64,16 @@ a{
 #skills{
   padding-top: 8vh;
   box-sizing: border-box;
-  background: url('http://wallpapers-and-backgrounds.net/wp-content/uploads/2016/09/planet-background_2.jpg') center no-repeat;
+  background: url('https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2018/1-earth.jpg') center no-repeat;
   background-attachment: fixed;
   height: 120vh;
 }
 #projects{
   height: 95vh;
   margin-top: 30px
+}
+.image-container{
+  min-width: 95vw
 }
 .project-container{
   display: flex;
