@@ -71,6 +71,12 @@ class Home extends Component {
             <Link to='/kwizz'>
             <div className='project text'>Kwizz!</div> 
             </Link>
+            <Link to='/Concentration'>
+            <div className='project text'>Concentration</div>
+            </Link>
+            <Link to='/Randomizer'>
+            <div className='project text'>Randomizer</div>
+            </Link>
         </nav> 
         </div> 
 

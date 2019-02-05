@@ -6,7 +6,7 @@
 .section{
   width: 100%;
   box-sizing: border-box;
-
+  height: 100%
 }
 .text{
   font-family: 'Roboto', sans-serif;
@@ -82,6 +82,7 @@ a{
   flex-wrap: wrap;
   box-sizing: border-box;
   width: 100%;
+  height: 100%;
 }
 .project{
   background: #1f232e6c;
