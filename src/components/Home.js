@@ -56,7 +56,7 @@ class Home extends Component {
             <img src={rd} alt='' className='skill-icon' />
             <img src={node} alt='' className='skill-icon' />
             <img src={pg} alt='' className='skill-icon' />
-            {/* <img src={jest} alt='' className='skill-icon' /> */}
+            <img src={jest} alt='' className='skill-icon' />
 
             <p className='text skillz'>HTML   |  CSS   |  JAVASCRIPT   |  REACT   |  REDUX   |  NODEJS   |  POSTGRESQL | JEST</p>
 
